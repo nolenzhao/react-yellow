@@ -1,11 +1,13 @@
-import Header from './Header'
+
 import {BrowserRouter as Router, Route} from 'react-router-dom'
+import Titlecard from './Titlecard'
 
 const Styling = () => 
 {
     return(
-        <Header title = "Styling"/>
-        
+        <div className = "content">
+        <Titlecard title = "STYLING"/>
+        </div>
     )   
 }
 export default Styling
