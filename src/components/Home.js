@@ -9,7 +9,7 @@ const Home = () =>
   return (
     <div className="content">
       <Titlecard title = "YELLOW VANCOUVER"/>
-
+      
     </div>
     
   );

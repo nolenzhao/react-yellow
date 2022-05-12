@@ -16,6 +16,7 @@ header{
 }
 nav{
   margin-top: 0px;
+  
 }
 nav ul{
   list-style-type: none;
@@ -23,22 +24,25 @@ nav ul{
   flex-direction: row;
   padding-top: 12px;
   justify-content: center;
+
 }
 
 nav li{
   padding-left: 15px;
   padding-right: 15px;
   padding-bottom: 9px;
- 
+  
 }
 .hometab{
   margin-top: -40px;
+  
 }
 
 .hometab img{
   height:160px;
   width: auto;
   transition-duration: 0.35s;
+  
 }
 
 .hometab img:hover{
@@ -110,7 +114,7 @@ footer{
   margin-left: 200px;
   width: 200px;
   height: auto;
-  background-color: red;
+
 }
 
 .itemcontainer{
@@ -163,4 +167,20 @@ p{
   display: flex;
   justify-content: center;
   padding-top: 10px;
+  
+}
+
+.actualbuttons{
+  border-radius: 50%;
+  height: 30px;
+  width: 30px;
+  border-color:black;
+  border-style: solid;
+  border-width: 1px;
+  margin-left: 18px;
+  margin-right: 18px;
+}
+
+button:hover {
+  border-color: #0966e6;;
 }
