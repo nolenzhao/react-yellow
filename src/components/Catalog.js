@@ -5,18 +5,29 @@ import Item from './Item'
 import Jakescream from './assets/images/maskscream.png'
 import Camoshirttan from './assets/images/Camo-shirt-tan.png'
 import Camoshirtcream from './assets/images/Camo-shirt-cream.png'
+import Totebag1 from './assets/images/totebag1.png'
+
 const Catalog = (props) =>
 {
-    let itemarray = [];
+    
     
 
     return (
         <div className = "content">
             <Titlecard title = "CATALOG"/>
             <div className = "catalogcontent">
-                <Item description = "Camo shirt" button_num = {2} buttoncolour1 = '#b0947a' buttoncolour2 = "#e6dcd0"
-                buttonlink1 = {Camoshirttan} buttonlink2 = {Camoshirtcream} alt = "Camo Shirt" imginit = {Camoshirtcream}/>
+                <Item  name = "Camo Shirt" button_num = {2} buttoncolour1 = '#c2a78d' buttoncolour2 = "#e6dcd0"
+                buttonlink1 = {Camoshirttan} buttonlink2 = {Camoshirtcream} alt = "Camo Shirt" imginit = {Camoshirttan} 
+                description = "Each shirt contains it's own unique camo design embedded into
+                 our iconic YELLOW print, making each piece one of one."/>
                 
+                <Item name = "Face Cover" button_num = {1} buttoncolour1 = '#0966e6' buttonlink1 = {Jakescream} alt = "Face Cover"
+                 imginit = {Jakescream} description = "Made from recycled tee shirts, this soft, breathable, and 
+                 washable face cover is perfect for any crowded event. Each covering displays our iconic YELLOW print."  />
+
+                <Item name = "Tote Bag" button_num = {1} buttoncolour1 = "#0966e6" buttonlink1 = {Totebag1} alt = "Tote Bag"
+                 imginit = {Totebag1} description = "A sturdy replacement to the classic backpack, this tote bag displays both 
+                 our iconic YELLOW print as well as the infamous D. B. Cooper."/>
             </div>
             
         </div>

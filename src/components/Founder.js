@@ -5,6 +5,9 @@ const Founder = () =>
     return(
         <div className = "content">
             <Titlecard title = "THE FOUNDER"/>
+            <div className = "foundercontent"> 
+            
+            </div> 
         </div>
     )
 }

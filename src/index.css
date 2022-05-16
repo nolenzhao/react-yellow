@@ -106,14 +106,22 @@ nav a{
 
 footer{
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif; 
-  
+  height: 400px;
+  width: 100%;
+  background-color: black;
+  color: white;
+  margin-top: -100px;
 }
 
 
+
 .footername{
+
+  width: 200px; 
   margin-left: 200px;
-  width: 200px;
-  height: auto;
+  margin-top: 100px;
+
+  padding-top: 50px;
 
 }
 
@@ -174,13 +182,228 @@ p{
   border-radius: 50%;
   height: 30px;
   width: 30px;
-  border-color:black;
   border-style: solid;
+  border-color: black;
   border-width: 1px;
   margin-left: 18px;
   margin-right: 18px;
 }
 
-button:hover {
-  border-color: #0966e6;;
+button:focus {
+  border-width: 3px;
+}
+
+h1, h2, h3, h4, h5, h6{
+  font-family: Tahoma, Verdana, Geneva, sans-serif;
+}
+
+.itemname{
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.clothesdescription{
+  padding-left: 30px;
+  padding-right: 30px;
+  height: 120px;
+  width: 400px;
+}
+
+.foundercontent{
+  margin-top: 20px;
+  background-image: url(./components/assets/images/FlowerSmile.png);
+  background-size: cover;
+ height: 1700px;
+}
+
+.tablecontent{
+  margin-top: 10px;
+  flex-wrap: wrap;
+}
+
+.tablecontent thead{
+  font-family: Tahoma, Verdana, Geneva, sans-serif;
+}
+.tablecontent tr{
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif; 
+}
+#topstable td, #topstable th{
+  padding: 20px 130px;
+}
+.tablecontent td, .tablecontent th{
+  border-bottom: 1px solid black;
+  text-align: center;
+}
+.tablecontent th{
+  padding-bottom: 20px;
+}
+.tabletitle {
+  text-align: center;
+  margin-top: 50px;
+}
+.tablecontent{
+  display: flex;
+  justify-content: center;
+}
+
+.sizingtable{
+  border-collapse: collapse;
+  margin-bottom: 90px;
+}
+
+.chartgreyback{
+  background-color: #e7e7e7;
+}
+
+.itemcontainer a{
+
+  color: #646464;
+  
+}
+
+.itemcontainer h6{
+  margin-left: 40px;
+}
+
+#pantstable th, #pantstable, td{
+  padding: 20px 100px;
+
+}
+.previewsimage img{
+  height: 600px;
+  width: auto;
+
+}
+
+.collectionlink{
+  background-color: rgba(228,228,228,1);
+  margin-top: -60px;
+  margin-left: 50px;
+  height: 30px;
+  width: 160px;
+  position: relative;
+
+
+}
+.collectionlink:hover{
+  background-color: rgba(255, 255, 255, 0.75);
+
+}
+
+.collectionlink a{
+  text-decoration: none;
+  line-height: 30px;
+  text-align: center;
+  color: black;
+}
+
+.collectionlink a:hover{
+  color: rgba(0,0,0,0.75);
+}
+.previewsimage{
+  margin-top: 50px;
+  background-color: red;
+
+}
+.homecontent{
+  display:flex;
+  flex-direction: column;
+}
+#previewimage0{
+  width: 400px;
+  margin-left: 200px;
+  margin-top: 40px;
+
+  top: 0px;
+
+}
+#previewimage1{
+  width: 350px;
+  margin-left: 1000px;
+
+  top: 200px;
+
+}
+#previewimage2{
+  width: 330px;
+  margin-left: 800px;
+
+  top: -10px;
+
+}
+#previewimage3{
+  width: 280px;
+  margin-left: 450px;
+
+  top: 300px;
+
+}
+#previewimage4{
+  width: 190px;
+  margin-left: 20px;
+  top: 20px;
+}
+#previewimage4{
+  width: 290px;
+  margin-left: 50px;
+  top: 450px;
+}
+#previewimage5{
+  width: 390px;
+  margin-left: 500px;
+  top: -150px;
+}
+#previewimage6{
+  width: 330px;
+  margin-left: 1110px;
+  top: -100px;
+}
+#previewlogo{
+  width: 400px;
+  height: 160px;
+  text-align: center;
+
+  margin-left: 550px;
+  top: 40%;
+  font-size: 40px;
+  background-color: white;
+  margin-bottom: 500px;
+ 
+  border: 2px solid black;  
+  color: #005395;
+}
+#previewspacer{
+  width: 100%;
+  background-color: black;
+}
+
+.footerlove{
+  margin-left: 1000px;
+  margin-top: -35px;
+
+}
+
+.previewimage{
+  position: sticky;
+  margin-top: 100px;
+}
+
+.devsocials img{
+  width: 30px;
+  height: auto;
+  margin-left: 15px;
+  margin-right: 15px;
+  
+
+}
+.devsocials{
+  margin-left: 240px;
+  margin-top: 30px;
+}
+.devsocials a{
+  text-decoration: none;
+
+
+
 }

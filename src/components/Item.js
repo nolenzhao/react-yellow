@@ -1,8 +1,8 @@
 
-import ColourButton from './ColourButton';
+
 import {useState} from 'react';
-import camoshirttan from './assets/images/Camo-shirt-tan.png'
-import camoshirtcream from './assets/images/Camo-shirt-cream.png'
+import {BrowserRouter as Router, Routes, Route, Link} from 'react-router-dom'
+import Sizingchart from './Sizingchart'
 
 const Item = (props) =>
 { 
@@ -25,10 +25,16 @@ const Item = (props) =>
         </div>
         <div className = "colourbuttons">
            {button_arr}
-            
         </div>
-        <p className = "clothesdescription"> {props.description}  </p> 
         
+        <h3 className = "itemname"> {props.name} </h3>
+        <p className = "clothesdescription"> {props.description} </p> 
+        <Link to = "/Sizingchart"> <h6> Sizing Information </h6> </Link>
+
+
+        <Routes> 
+            <Route exact path = '/Sizingchart' element = {<Sizingchart/>}></Route>
+        </Routes> 
     </div>
     )
 }

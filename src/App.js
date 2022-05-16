@@ -9,7 +9,9 @@ import Gallery from './components/Gallery'
 import Founder from './components/Founder'
 import Mission from './components/Mission'
 import logo from './components/assets/images/Yellowlogo.png'  
-
+import instagram from './components/assets/images/instagram.png'
+import linkedin from './components/assets/images/linkedin.png'
+import github from './components/assets/images/github.png'
 const App = () => {
   return (
       <Router>
@@ -60,7 +62,12 @@ const App = () => {
 
     <footer>
       <div className = "footername">  Designed and Developed by Nolen Zhao</div>
-
+      <div className = "footerlove"> Made with ♥ in Vancouver</div>
+      <div className = "devsocials"> 
+        <a href = "https://www.linkedin.com/in/nolen-zhao/" target = "_blank"><img src = {linkedin}/></a>
+        <a href = "https://github.com/nolenzhao" target = "_blank"> <img src = {github} /> </a>
+      
+      </div>
     </footer>
     </div>
     </Router>
