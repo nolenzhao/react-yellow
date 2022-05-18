@@ -3,26 +3,65 @@
 import {useState} from 'react';
 import {BrowserRouter as Router, Routes, Route, Link} from 'react-router-dom'
 import Sizingchart from './Sizingchart'
-
+import arrowback from './assets/images/arrowback.png'
+import arrowforward from './assets/images/arrowforward.png'
+import React from 'react'
 const Item = (props) =>
 { 
+    let num_images = props.num_images;
+
+    let image_arr = [props.img1, props.img2, props.img3, props.img4, props.img5, props.img6, props.img7, props.img8, props.img9]
     let buttoncolours = [props.buttoncolour1, props.buttoncolour2, props.buttoncolour3, props.buttoncolour4, props.buttoncolour5];
     let buttonlinks = [props.buttonlink1, props.buttonlink2, props.buttonlink3, props.buttonlink4, props.buttonlink5];
     let button_arr = [];
     let button_num = props.button_num;
    for(let i = 0; i < button_num; i++)
    {
-        button_arr.push(<button onClick = {() => setclothescolour(buttonlinks[i])} style = {{backgroundColor: buttoncolours[i]}} 
+        button_arr.push(<button onClick = {() =>setclothescolour(buttonlinks[i])} style = {{backgroundColor: buttoncolours[i]}} 
         className = "actualbuttons"> </button>)
    }
 
    const [clothescolour, setclothescolour] = useState(props.imginit)
+   const [count, setcount] = useState(0)
 
+
+   const forwardimagechange = () =>{
+    setcount( count+1);
+    setclothescolour(image_arr[count%num_images]);
+    console.log(count);
+
+    
+   }
+      
+const backimagechange = () =>
+{
+   if(count >0)
+   {
+    setcount(count-1);
+   }
+   setclothescolour(image_arr[count%num_images]);
+   console.log(count);
+}
+   
+
+  
+    
     return(
      <div className = "itemcontainer">
         <div className = "clothesimage"> 
             <img src = {clothescolour} alt = {props.alt}/>
         </div>
+        <div className = "arrowicons">
+        <div className = "backarrow">
+            <img onClick = {backimagechange} src = {arrowback}/>
+        </div>
+        <div className =  "frontarrow">
+        <img onClick = {forwardimagechange}  src = {arrowforward}/>
+        </div>
+    
+        </div>
+ 
+        
         <div className = "colourbuttons">
            {button_arr}
         </div>
@@ -37,6 +76,8 @@ const Item = (props) =>
         </Routes> 
     </div>
     )
+
+    
 }
 
 export default Item
