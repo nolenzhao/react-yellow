@@ -1,8 +1,8 @@
 
 import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
-import About from './components/About'
+
 import Catalog from './components/Catalog'
-import Styling from './components/Styling'
+
 import Home from './components/Home'
 import Sizingchart from './components/Sizingchart'
 import Gallery from './components/Gallery'
@@ -24,14 +24,14 @@ const App = () => {
       <header>
       <nav> 
         
-        <div className = "hometab"> 
+        <div id = "homelogo" className = "hometab"> 
             <Link to = "/Home"><img src = {logo} alt = "Logo" /></Link>
         </div>
        
         <ul> 
           <div className = "dropdown">  
          
-            <Link to = "/About"><li> <h3> ABOUT </h3> </li> </Link>
+            <li> <h3> ABOUT </h3> </li> 
             <div className = "dropcontent"> <Link to = "/Mission"><h5> Our Mission </h5></Link> 
             <Link to = "/Founder" > <h5> The Founder </h5></Link> </div>
           </div>
@@ -42,7 +42,7 @@ const App = () => {
             <Link to = "/Accessories"> <h5> Accessories </h5> </Link> </div>
           </div>
           <div className = "dropdown">
-            <Link to = "/Styling"><li>  <h3>STYLING</h3></li> </Link>
+            <li>  <h3>STYLING</h3></li> 
             <div className = "dropcontent"> <Link to = "/Sizingchart"><h5> Sizing Chart </h5></Link> 
             <Link to = "/Gallery" ><h5> Gallery </h5></Link> </div>
           </div>
@@ -57,9 +57,9 @@ const App = () => {
     </header>
     <div className = "borderref"></div>
     <Routes>
-          <Route exact path = "/About" element = {<About/>}> </Route>
+         
           <Route exact path = "/Catalog" element = {<Catalog/>}> </Route>
-          <Route exact path = "/Styling" element = {<Styling/>}> </Route>
+          
           <Route exact path = "/Home" element = {<Home/>}> </Route>
           <Route exact path = "/Sizingchart" element = {<Sizingchart/>}> </Route>
           <Route exact path = "/Gallery" element = {<Gallery/>}> </Route>
@@ -86,6 +86,9 @@ const App = () => {
         <a href = "mailto:zhaonolen@gmail.com"> <img src = {mailicon}/> </a>
         <a href = "https://www.instagram.com/yellow.xyz/" target = "_blank"> <img src = {instagram}/> </a>
       
+      </div>
+      <div className = "footertitle">
+         <a href = "#homelogo"><h1>YELLOW+</h1></a>
       </div>
     </footer>
     </div>

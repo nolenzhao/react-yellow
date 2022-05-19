@@ -24,23 +24,16 @@ const Item = (props) =>
    const [clothescolour, setclothescolour] = useState(props.imginit)
    const [count, setcount] = useState(0)
 
-
-   const forwardimagechange = () =>{
-    setcount( count+1);
-    setclothescolour(image_arr[count%num_images]);
-    console.log(count);
-
-    
-   }
       
-const backimagechange = () =>
+const imagechange = test_num =>
 {
-   if(count >0)
-   {
-    setcount(count-1);
-   }
-   setclothescolour(image_arr[count%num_images]);
-   console.log(count);
+    if(test_num>=0)
+    {
+    
+        setclothescolour(image_arr[test_num%num_images]);
+        setcount(test_num);
+    }
+  
 }
    
 
@@ -53,10 +46,10 @@ const backimagechange = () =>
         </div>
         <div className = "arrowicons">
         <div className = "backarrow">
-            <img onClick = {backimagechange} src = {arrowback}/>
-        </div>
+            <img onClick = {()=> imagechange(count-1)} src = {arrowback}/>
+        </div>  
         <div className =  "frontarrow">
-        <img onClick = {forwardimagechange}  src = {arrowforward}/>
+        <img onClick = {()=>imagechange(count+1)}  src = {arrowforward}/>
         </div>
     
         </div>

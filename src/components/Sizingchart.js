@@ -11,9 +11,9 @@ const Sizingchart = () =>{
                 <thead> 
                     <tr>
                         <th> Size</th>
-                        <th> Sleeve </th>
-                        <th> Chest </th>
-                        <th> Waist </th>
+                        <th> Sleeve (in)</th>
+                        <th> Chest (in)</th>
+                        <th> Waist (in)</th>
                     </tr>
                 </thead>
                 <tbody>
@@ -59,10 +59,10 @@ const Sizingchart = () =>{
                 <thead>
                     <tr>
                         <td> Size</td>
-                        <td> Waist</td>
-                        <td> Seat</td>
-                        <td> Thigh</td>
-                        <td> Inseam</td>
+                        <td> Waist (in)</td>
+                        <td> Seat (in)</td>
+                        <td> Thigh (in)</td>
+                        <td> Inseam (in)</td>
                     </tr>
                     
                 </thead> 
