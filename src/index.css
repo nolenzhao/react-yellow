@@ -138,6 +138,7 @@ footer{
 
 .content .catalogcontent{
   justify-content: center;
+
 }
 
 
@@ -153,8 +154,9 @@ footer{
 
 .clothesimage{
   justify-content: center;
-  display:flex;
-
+  display:flex; 
+ 
+  
 }
 
 .clothesimage img{
@@ -167,9 +169,10 @@ p{
 }
 .clothesdescription{
 
-  margin-top: 20px;
+  padding-top: 10px;
   justify-content: center;
   display:flex;
+
 }
 
 .colourbuttons{
@@ -263,8 +266,9 @@ h1, h2, h3, h4, h5, h6{
   
 }
 
-.itemcontainer h6{
+.itemcontainer .sizingh6{
   margin-left: 40px;
+  margin-top: 30px;
 }
 
 #pantstable th, #pantstable, td{
@@ -414,7 +418,7 @@ h1, h2, h3, h4, h5, h6{
 }
 
 .sitesocials{
-  margin-left: 980px;
+  margin-left: 950px;
   margin-top: -30px;
 
 }
@@ -455,7 +459,7 @@ h1, h2, h3, h4, h5, h6{
 .footertitle{
   display: flex;
   justify-content: center;
-  color: #c2c2c2;
+  color: red;
   font-size: 30px;
 
 }
@@ -481,9 +485,21 @@ h1, h2, h3, h4, h5, h6{
   border-radius: 0
 }
 .gallerydescription{
-  margin-top: 100px;
+  margin-top: 70px;
   margin-left: 150px;
   width: 600px;
  
   padding-bottom: 100px;
+}
+
+span{
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif; 
+}
+
+.colourdescription{
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+
+
 }

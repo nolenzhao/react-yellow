@@ -17,6 +17,7 @@ import instagram from './components/assets/images/instagram.png'
 import linkedin from './components/assets/images/linkedin.png'
 import github from './components/assets/images/github.png'
 import mailicon from './components/assets/images/gmail.png'
+import tiktok from './components/assets/images/tiktok.png'
 const App = () => {
   return (
       <Router>
@@ -85,6 +86,7 @@ const App = () => {
     
         <a href = "mailto:zhaonolen@gmail.com"> <img src = {mailicon}/> </a>
         <a href = "https://www.instagram.com/yellow.xyz/" target = "_blank"> <img src = {instagram}/> </a>
+        <a href="https://www.tiktok.com/en/" target = "_blank"> <img src = {tiktok} /> </a>
       
       </div>
       <div className = "footertitle">

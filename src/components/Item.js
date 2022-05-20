@@ -13,17 +13,18 @@ const Item = (props) =>
     let image_arr = [props.img1, props.img2, props.img3, props.img4, props.img5, props.img6, props.img7, props.img8, props.img9]
     let buttoncolours = [props.buttoncolour1, props.buttoncolour2, props.buttoncolour3, props.buttoncolour4, props.buttoncolour5];
     let buttonlinks = [props.buttonlink1, props.buttonlink2, props.buttonlink3, props.buttonlink4, props.buttonlink5];
+    let colour_desc_arr = [props.desc1, props.desc2, props.desc3, props.desc4, props.desc5]
     let button_arr = [];
     let button_num = props.button_num;
    for(let i = 0; i < button_num; i++)
    {
-        button_arr.push(<button onClick = {() =>setclothescolour(buttonlinks[i])} style = {{backgroundColor: buttoncolours[i]}} 
+        button_arr.push(<button onClick = {() =>setbothcolours(i)} style = {{backgroundColor: buttoncolours[i]}} 
         className = "actualbuttons"> </button>)
    }
 
    const [clothescolour, setclothescolour] = useState(props.imginit)
    const [count, setcount] = useState(0)
-
+   const [colourdescription, setcolourdescription] = useState(props.descinit)
       
 const imagechange = test_num =>
 {
@@ -32,9 +33,15 @@ const imagechange = test_num =>
     
         setclothescolour(image_arr[test_num%num_images]);
         setcount(test_num);
+        setcolourdescription(<br/>);
     }
   
 }
+const setbothcolours = index =>{
+    setclothescolour(buttonlinks[index])
+    setcolourdescription(colour_desc_arr[index])
+}
+
    
 
   
@@ -60,8 +67,9 @@ const imagechange = test_num =>
         </div>
         
         <h3 className = "itemname"> {props.name} </h3>
+        <h5 className = "colourdescription"> {colourdescription}</h5>
         <p className = "clothesdescription"> {props.description} </p> 
-        <Link to = "/Sizingchart"> <h6> Sizing Information </h6> </Link>
+        <Link to = "/Sizingchart"> <h6 className = "sizingh6"> Sizing Information </h6> </Link>
 
 
         <Routes> 

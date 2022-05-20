@@ -16,7 +16,7 @@ const Gallery = () =>
                 <br/>
                 <p> 
                     Take a moment and capture yourself in all <strong>YELLOW</strong> to be placed on our wall,
-                    by sending us a snapshot through any of our platforms.
+                    by sending us a snapshot through any of our online platforms.
                 </p>
 
 
