@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/react-yellow/static/css/main.fc48fd48.css",
+    "main.css": "/react-yellow/static/css/main.e2754fac.css",
     "main.js": "/react-yellow/static/js/main.63a81883.js",
     "static/js/787.4321a4ae.chunk.js": "/react-yellow/static/js/787.4321a4ae.chunk.js",
     "static/media/Camo-shirt-cream.png": "/react-yellow/static/media/Camo-shirt-cream.5f8e3140e19388aecb38.png",
@@ -18,12 +18,12 @@
     "static/media/linkedin.png": "/react-yellow/static/media/linkedin.9aba105bebf1bc8f6921.png",
     "static/media/tiktok.png": "/react-yellow/static/media/tiktok.6ab8de2b9f5ca5c621da.png",
     "index.html": "/react-yellow/index.html",
-    "main.fc48fd48.css.map": "/react-yellow/static/css/main.fc48fd48.css.map",
+    "main.e2754fac.css.map": "/react-yellow/static/css/main.e2754fac.css.map",
     "main.63a81883.js.map": "/react-yellow/static/js/main.63a81883.js.map",
     "787.4321a4ae.chunk.js.map": "/react-yellow/static/js/787.4321a4ae.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.fc48fd48.css",
+    "static/css/main.e2754fac.css",
     "static/js/main.63a81883.js"
   ]
 }
