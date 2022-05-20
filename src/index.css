@@ -459,13 +459,13 @@ h1, h2, h3, h4, h5, h6{
 .footertitle{
   display: flex;
   justify-content: center;
-  color: red;
+
   font-size: 30px;
 
 }
 .footertitle a{
   text-decoration: none;
-  color: #c2c2c2;
+  color: #a7a7a7;
 }
 #newpending{
   display:flex;
