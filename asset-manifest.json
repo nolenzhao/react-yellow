@@ -1,29 +1,29 @@
 {
   "files": {
-    "main.css": "/github.io/static/css/main.2ea61740.css",
-    "main.js": "/github.io/static/js/main.d1dbf37e.js",
-    "static/js/787.4321a4ae.chunk.js": "/github.io/static/js/787.4321a4ae.chunk.js",
-    "static/media/Camo-shirt-cream.png": "/github.io/static/media/Camo-shirt-cream.5f8e3140e19388aecb38.png",
-    "static/media/camoshirt2.png": "/github.io/static/media/camoshirt2.5a6757fd72abcf6d0842.png",
-    "static/media/camoshirt1.png": "/github.io/static/media/camoshirt1.8c8bd0c02f2b67d9c3fd.png",
-    "static/media/totebag2.png": "/github.io/static/media/totebag2.67ed9947247ddd06209c.png",
-    "static/media/Camo-shirt-tan.png": "/github.io/static/media/Camo-shirt-tan.91976ab9e0a3ae267e51.png",
-    "static/media/totebag1.png": "/github.io/static/media/totebag1.6ad18d277fed89861fe7.png",
-    "static/media/maskhead.png": "/github.io/static/media/maskhead.f2b7dba33c58ce394397.png",
-    "static/media/maskscream.png": "/github.io/static/media/maskscream.18af085d9c7873829647.png",
-    "static/media/FlowerSmile.png": "/github.io/static/media/FlowerSmile.c4068fd22c2dc2af203b.png",
-    "static/media/Yellowlogo.png": "/github.io/static/media/Yellowlogo.c6ff9262961837714da0.png",
-    "static/media/gmail.png": "/github.io/static/media/gmail.6bf634297dbc08cc13d3.png",
-    "static/media/instagram.png": "/github.io/static/media/instagram.171f7e165bf7a2ca12f5.png",
-    "static/media/linkedin.png": "/github.io/static/media/linkedin.9aba105bebf1bc8f6921.png",
-    "static/media/tiktok.png": "/github.io/static/media/tiktok.6ab8de2b9f5ca5c621da.png",
-    "index.html": "/github.io/index.html",
-    "main.2ea61740.css.map": "/github.io/static/css/main.2ea61740.css.map",
-    "main.d1dbf37e.js.map": "/github.io/static/js/main.d1dbf37e.js.map",
-    "787.4321a4ae.chunk.js.map": "/github.io/static/js/787.4321a4ae.chunk.js.map"
+    "main.css": "/react-yellow/static/css/main.fc48fd48.css",
+    "main.js": "/react-yellow/static/js/main.63a81883.js",
+    "static/js/787.4321a4ae.chunk.js": "/react-yellow/static/js/787.4321a4ae.chunk.js",
+    "static/media/Camo-shirt-cream.png": "/react-yellow/static/media/Camo-shirt-cream.5f8e3140e19388aecb38.png",
+    "static/media/camoshirt2.png": "/react-yellow/static/media/camoshirt2.5a6757fd72abcf6d0842.png",
+    "static/media/camoshirt1.png": "/react-yellow/static/media/camoshirt1.8c8bd0c02f2b67d9c3fd.png",
+    "static/media/totebag2.png": "/react-yellow/static/media/totebag2.67ed9947247ddd06209c.png",
+    "static/media/Camo-shirt-tan.png": "/react-yellow/static/media/Camo-shirt-tan.91976ab9e0a3ae267e51.png",
+    "static/media/totebag1.png": "/react-yellow/static/media/totebag1.6ad18d277fed89861fe7.png",
+    "static/media/maskhead.png": "/react-yellow/static/media/maskhead.f2b7dba33c58ce394397.png",
+    "static/media/maskscream.png": "/react-yellow/static/media/maskscream.18af085d9c7873829647.png",
+    "static/media/FlowerSmile.png": "/react-yellow/static/media/FlowerSmile.c4068fd22c2dc2af203b.png",
+    "static/media/Yellowlogo.png": "/react-yellow/static/media/Yellowlogo.c6ff9262961837714da0.png",
+    "static/media/gmail.png": "/react-yellow/static/media/gmail.6bf634297dbc08cc13d3.png",
+    "static/media/instagram.png": "/react-yellow/static/media/instagram.171f7e165bf7a2ca12f5.png",
+    "static/media/linkedin.png": "/react-yellow/static/media/linkedin.9aba105bebf1bc8f6921.png",
+    "static/media/tiktok.png": "/react-yellow/static/media/tiktok.6ab8de2b9f5ca5c621da.png",
+    "index.html": "/react-yellow/index.html",
+    "main.fc48fd48.css.map": "/react-yellow/static/css/main.fc48fd48.css.map",
+    "main.63a81883.js.map": "/react-yellow/static/js/main.63a81883.js.map",
+    "787.4321a4ae.chunk.js.map": "/react-yellow/static/js/787.4321a4ae.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.2ea61740.css",
-    "static/js/main.d1dbf37e.js"
+    "static/css/main.fc48fd48.css",
+    "static/js/main.63a81883.js"
   ]
 }
