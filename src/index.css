@@ -172,7 +172,7 @@ p{
   padding-top: 10px;
   justify-content: center;
   display:flex;
-
+ 
 }
 
 .colourbuttons{
@@ -268,7 +268,7 @@ h1, h2, h3, h4, h5, h6{
 
 .itemcontainer .sizingh6{
   margin-left: 40px;
-  margin-top: 30px;
+
 }
 
 #pantstable th, #pantstable, td{
@@ -501,5 +501,35 @@ span{
   justify-content: center;
   margin-top: 10px;
 
+}
 
+.paylink img{
+  width: 100px;
+  height: auto;
+  margin-top: -25px;
+}
+
+.paylink{
+  display: flex;
+  justify-content: center;
+
+  height: 50px;
+}
+
+.origin{
+  margin-left: 150px;
+  margin-top: 70px; 
+  padding-bottom: 100px;
+  width: 600px;
+}
+.origin h3{
+  text-decoration: underline;
+}
+.origin p{
+  padding-top: 10px;
+}
+.name{
+  display:flex;
+  justify-content: center;
+  margin-top: 10px;
 }

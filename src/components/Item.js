@@ -6,6 +6,7 @@ import Sizingchart from './Sizingchart'
 import arrowback from './assets/images/arrowback.png'
 import arrowforward from './assets/images/arrowforward.png'
 import React from 'react'
+import paypal from './assets/images/paypal.png'
 const Item = (props) =>
 { 
     let num_images = props.num_images;
@@ -65,9 +66,14 @@ const setbothcolours = index =>{
         <div className = "colourbuttons">
            {button_arr}
         </div>
-        
-        <h3 className = "itemname"> {props.name} </h3>
+        <div className = "name"> 
+        <h4> {props.name} </h4>
+        </div>
+       
         <h5 className = "colourdescription"> {colourdescription}</h5>
+        <div className = "paylink"> 
+         <a href = "#" > <img src = {paypal}/> </a>
+        </div>
         <p className = "clothesdescription"> {props.description} </p> 
         <Link to = "/Sizingchart"> <h6 className = "sizingh6"> Sizing Information </h6> </Link>
 
