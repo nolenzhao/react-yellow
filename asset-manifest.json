@@ -1,15 +1,30 @@
 {
   "files": {
-    "main.css": "/react-yellow/static/css/main.e2754fac.css",
-    "main.js": "/react-yellow/static/js/main.63a81883.js",
+    "main.css": "/react-yellow/static/css/main.4ca893a4.css",
+    "main.js": "/react-yellow/static/js/main.9e29593a.js",
     "static/js/787.4321a4ae.chunk.js": "/react-yellow/static/js/787.4321a4ae.chunk.js",
+    "static/media/YellowJeansBack.png": "/react-yellow/static/media/YellowJeansBack.0d882379ae48ab0e26f1.png",
+    "static/media/YellowJeansFront.png": "/react-yellow/static/media/YellowJeansFront.fada67c75b0f4ae4cf0a.png",
+    "static/media/YellowJeansSide.png": "/react-yellow/static/media/YellowJeansSide.cd280fe55e04042d243c.png",
+    "static/media/RedMask.png": "/react-yellow/static/media/RedMask.898e6586fa299804bb6f.png",
+    "static/media/YellowMask.png": "/react-yellow/static/media/YellowMask.2507dca7b1483185e483.png",
+    "static/media/YellowMotorcycleBlack.png": "/react-yellow/static/media/YellowMotorcycleBlack.f8b24a6f48a79353964c.png",
+    "static/media/YellowCrewneckFront.png": "/react-yellow/static/media/YellowCrewneckFront.5389666f6a7ea565ff0e.png",
     "static/media/Camo-shirt-cream.png": "/react-yellow/static/media/Camo-shirt-cream.5f8e3140e19388aecb38.png",
+    "static/media/YellowCrewneckBack.png": "/react-yellow/static/media/YellowCrewneckBack.ac216ecafde2d213385e.png",
+    "static/media/YellowMotorcycleCream.png": "/react-yellow/static/media/YellowMotorcycleCream.dee842210fc546731609.png",
+    "static/media/YellowJeansJacketSide.png": "/react-yellow/static/media/YellowJeansJacketSide.8549ddb33b7a5d5a4dc3.png",
+    "static/media/YellowJeansHat.png": "/react-yellow/static/media/YellowJeansHat.a8ed0ef16def2f259ffc.png",
+    "static/media/YellowJeansJacketBack.png": "/react-yellow/static/media/YellowJeansJacketBack.3c7feab349eb599663c7.png",
+    "static/media/YellowJeansBackCuff.png": "/react-yellow/static/media/YellowJeansBackCuff.eb5fdaf1562849c1b10b.png",
     "static/media/camoshirt2.png": "/react-yellow/static/media/camoshirt2.5a6757fd72abcf6d0842.png",
     "static/media/camoshirt1.png": "/react-yellow/static/media/camoshirt1.8c8bd0c02f2b67d9c3fd.png",
     "static/media/totebag2.png": "/react-yellow/static/media/totebag2.67ed9947247ddd06209c.png",
     "static/media/Camo-shirt-tan.png": "/react-yellow/static/media/Camo-shirt-tan.91976ab9e0a3ae267e51.png",
     "static/media/totebag1.png": "/react-yellow/static/media/totebag1.6ad18d277fed89861fe7.png",
     "static/media/maskhead.png": "/react-yellow/static/media/maskhead.f2b7dba33c58ce394397.png",
+    "static/media/ToteBags.png": "/react-yellow/static/media/ToteBags.d2b31a30b0d4faf41627.png",
+    "static/media/BlueCamoShirtCream.png": "/react-yellow/static/media/BlueCamoShirtCream.c6741ea7c1f4c8009dea.png",
     "static/media/maskscream.png": "/react-yellow/static/media/maskscream.18af085d9c7873829647.png",
     "static/media/FlowerSmile.png": "/react-yellow/static/media/FlowerSmile.c4068fd22c2dc2af203b.png",
     "static/media/Yellowlogo.png": "/react-yellow/static/media/Yellowlogo.c6ff9262961837714da0.png",
@@ -17,13 +32,14 @@
     "static/media/instagram.png": "/react-yellow/static/media/instagram.171f7e165bf7a2ca12f5.png",
     "static/media/linkedin.png": "/react-yellow/static/media/linkedin.9aba105bebf1bc8f6921.png",
     "static/media/tiktok.png": "/react-yellow/static/media/tiktok.6ab8de2b9f5ca5c621da.png",
+    "static/media/paypal.png": "/react-yellow/static/media/paypal.ce2b79c2cf704cf0b1b3.png",
     "index.html": "/react-yellow/index.html",
-    "main.e2754fac.css.map": "/react-yellow/static/css/main.e2754fac.css.map",
-    "main.63a81883.js.map": "/react-yellow/static/js/main.63a81883.js.map",
+    "main.4ca893a4.css.map": "/react-yellow/static/css/main.4ca893a4.css.map",
+    "main.9e29593a.js.map": "/react-yellow/static/js/main.9e29593a.js.map",
     "787.4321a4ae.chunk.js.map": "/react-yellow/static/js/787.4321a4ae.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e2754fac.css",
-    "static/js/main.63a81883.js"
+    "static/css/main.4ca893a4.css",
+    "static/js/main.9e29593a.js"
   ]
 }
