@@ -2,20 +2,31 @@
 import {BrowserRouter as Router, Route} from 'react-router-dom'
 import Titlecard from './Titlecard'
 
-import maskhead from './assets/images/maskhead.png'
-import jakescream from './assets/images/maskscream.png'
-import camoshirt1 from './assets/images/camoshirt1.png'
-import camoshirt2 from './assets/images/camoshirt2.png'
-import totebag1 from './assets/images/totebag1.png'
-import camoshirttan from './assets/images/Camo-shirt-tan.png'
-import totebag2 from './assets/images/totebag2.png'
+
+import YellowBenBag from './assets/images/YellowBenBag.JPG'
+import YellowBenHats from './assets/images/YellowBenHats.JPG'
+import YellowColeRing from './assets/images/YellowColeRing.jpg'
+import YellowGeorgeBack from './assets/images/YellowGeorgeBack.jpg'
+import YellowGlassesMask from './assets/images/YellowGlassesMask.JPG'
+import YellowJackBack from './assets/images/YellowJackBack.JPG'
+import YellowParkerFlower from './assets/images/YellowParkerFlower.jpg'
+import YellowParkerSpit from './assets/images/YellowParkerSpit.JPG'
+import YellowSeversBack from './assets/images/YellowSeversBack.JPG'
+import YellowGeorgeSpill from './assets/images/YellowGeorgeSpill.JPG'
+import YellowJasonJeans from './assets/images/YellowJasonJeans.JPG'
+import YellowBothSweaters from './assets/images/YellowBothSweaters.JPG'
+import YellowJasonFlannel from './assets/images/YellowJasonFlannel.JPG'
+import YellowToteBag from './assets/images/YellowToteBag.JPG'
+import YellowColeConnor from './assets/images/YellowColeConnor.JPG'
+
 import logo from './assets/images/Yellowlogo.png'
 const Home = () =>
 {
-  let previewsimage_arr = [jakescream,maskhead, camoshirt1, camoshirt2, totebag1, camoshirttan,totebag2]
+  let previewsimage_arr = [YellowJasonFlannel,YellowParkerSpit, YellowBenBag, YellowJackBack, YellowColeConnor, YellowGeorgeSpill, YellowSeversBack
+  , YellowGeorgeBack, YellowParkerFlower,YellowBenHats, YellowColeRing, YellowGlassesMask,YellowBothSweaters, ]
   let previews_arr = [];
   let imageclassnames = [];
-  for(let i = 0; i < 10; i++)
+  for(let i = 0; i < 15; i++)
   {
     imageclassnames.push('previewimage' + i);
     previews_arr.push(<img src = {previewsimage_arr[i]} className = "previewimage" id = {imageclassnames[i]}/>)
@@ -28,8 +39,8 @@ const Home = () =>
       <Titlecard title = "YELLOW VANCOUVER"/>
       
       {previews_arr}
-      <div className = "previewimage" id = "previewlogo">
-        <h1>YELLOW VANCOUVER </h1>
+      <div className = "previewimage" >
+        <h1 id = "previewlogo">YELLOW VANCOUVER </h1>
       </div>
       <div className = "previewimage" id = "previewspacer">
 

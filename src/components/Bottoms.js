@@ -12,10 +12,11 @@ const Bottoms = () =>{
         <div className = "content">
              <Titlecard title = "Bottoms"/>
              <div className = "catalogcontent">
-                 <Item name = "Yellow Jeans" button_num = {1} buttoncolour1 = "#6c9fde" buttonlink1 = {YellowJeansBack} 
+                 < Item name = "Yellow Jeans" button_num = {1} buttoncolour1 = "#6c9fde" buttonlink1 = {YellowJeansBack} 
                   imginit = {YellowJeansBack} alt = "Yellow Jeans"  num_images = {7} img1 = {YellowJeansBack} img2 = {YellowJeansFront}
                   img3 = {YellowJeansSide} img4 = {YellowJeansJacketBack} img5 = {YellowJeansJacketSide} img6 = {YellowJeansHat}
-                  img7 = {YellowJeansBackCuff} descinit = "Sky Blue" desc1 = "Sky Blue" description = "Yellow Jeans ......"/> 
+                  img7 = {YellowJeansBackCuff} descinit = "Sky Blue" desc1 = "Sky Blue" description = "Coming in all types of 
+                  washes, these jeans have our YELLOW motorcycle design printed onto the back leg.  "/> 
              </div>
         </div>
        

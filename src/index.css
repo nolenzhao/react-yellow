@@ -327,7 +327,7 @@ h1, h2, h3, h4, h5, h6{
   width: 350px;
   margin-left: 1000px;
 
-  top: 200px;
+  top: 290px;
 
 }
 #previewimage2{
@@ -340,19 +340,14 @@ h1, h2, h3, h4, h5, h6{
 #previewimage3{
   width: 280px;
   margin-left: 450px;
-
-  top: 300px;
+  top: 390px;
 
 }
-#previewimage4{
-  width: 190px;
-  margin-left: 20px;
-  top: 20px;
-}
+
 #previewimage4{
   width: 290px;
   margin-left: 50px;
-  top: 450px;
+  top: 400px;
 }
 #previewimage5{
   width: 390px;
@@ -362,21 +357,58 @@ h1, h2, h3, h4, h5, h6{
 #previewimage6{
   width: 330px;
   margin-left: 1110px;
-  top: -100px;
+  top: -130px;
+}
+#previewimage7{
+  width: 300px;
+  margin-left: -20px;
+  top: -50px;
+
+}
+#previewimage8{
+  top: 400px; 
+  width: 350px;
+  margin-left: 700px;
+}
+#previewimage9{
+  margin-left: -50px;
+  top: 335px;
+  width: 320px;
+}
+#previewimage10{
+  margin-left: 1130px;
+  top: 260px;
+  width: 370px;
+}
+#previewimage11{
+  margin-left: 200px;
+  top: 440px;
+  width: 320px;
+}
+#previewimage12{
+  margin-left: 720px;
+  top: 570px;
+  width: 390px
 }
 #previewlogo{
-  width: 400px;
-  height: 160px;
   text-align: center;
-
-  margin-left: 550px;
-  top: 40%;
-  font-size: 40px;
-  background-color: white;
+  position: sticky;
+  width: 500px;
+  height: auto;
+  top: 50%;
+  font-size: 70px;
+  background-color: #c7c7c7;
   margin-bottom: 500px;
- 
   border: 2px solid black;  
   color: #005395;
+}
+
+.previewimage{
+  position: sticky;
+  margin-top: 100px;
+  display: flex;
+  justify-content: center;
+  
 }
 #previewspacer{
   width: 100%;
@@ -389,10 +421,6 @@ h1, h2, h3, h4, h5, h6{
 
 }
 
-.previewimage{
-  position: sticky;
-  margin-top: 100px;
-}
 
 .devsocials img, .sitesocials img{
   width: 30px;
@@ -486,7 +514,7 @@ h1, h2, h3, h4, h5, h6{
 }
 .gallerydescription{
   margin-top: 70px;
-  margin-left: 150px;
+  margin-left: 200px;
   width: 600px;
  
   padding-bottom: 100px;
@@ -533,3 +561,35 @@ span{
   justify-content: center;
   margin-top: 10px;
 }
+
+
+.galleryitem{
+  display:flex;
+  flex-direction: row;
+  height: 500px;
+
+
+ margin-bottom: 50px;
+}
+
+.galleryitem img{
+  height: 500px;
+  margin-left: 15%;
+  border: 2px solid black;
+}
+
+.gallerydate{
+  margin-left: 200px;
+  margin-top: 100px;
+}
+
+.gallerydate p{
+  margin-top: 10px;
+  margin-bottom: 10px;
+  color: gray;
+  width: 500px;
+}
+.gallerydate h6{
+  color: gray;
+}
+
