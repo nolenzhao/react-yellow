@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/react-yellow/static/css/main.b8679964.css",
-    "main.js": "/react-yellow/static/js/main.070f0e64.js",
+    "main.js": "/react-yellow/static/js/main.10762b4c.js",
     "static/js/787.4321a4ae.chunk.js": "/react-yellow/static/js/787.4321a4ae.chunk.js",
     "static/media/YellowJeansBack.png": "/react-yellow/static/media/YellowJeansBack.0d882379ae48ab0e26f1.png",
     "static/media/YellowJeansFront.png": "/react-yellow/static/media/YellowJeansFront.fada67c75b0f4ae4cf0a.png",
@@ -54,11 +54,11 @@
     "static/media/paypal.png": "/react-yellow/static/media/paypal.ce2b79c2cf704cf0b1b3.png",
     "index.html": "/react-yellow/index.html",
     "main.b8679964.css.map": "/react-yellow/static/css/main.b8679964.css.map",
-    "main.070f0e64.js.map": "/react-yellow/static/js/main.070f0e64.js.map",
+    "main.10762b4c.js.map": "/react-yellow/static/js/main.10762b4c.js.map",
     "787.4321a4ae.chunk.js.map": "/react-yellow/static/js/787.4321a4ae.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.b8679964.css",
-    "static/js/main.070f0e64.js"
+    "static/js/main.10762b4c.js"
   ]
 }
