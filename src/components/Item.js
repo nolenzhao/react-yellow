@@ -1,6 +1,6 @@
 
 
-import {useState} from 'react';
+import {useState, useEffect} from 'react';
 import {BrowserRouter as Router, Routes, Route, Link} from 'react-router-dom'
 import Sizingchart from './Sizingchart'
 import arrowback from './assets/images/arrowback.png'
@@ -9,7 +9,19 @@ import React from 'react'
 import paypal from './assets/images/paypal.png'
 const Item = (props) =>
 { 
-    let num_images = props.num_images;
+
+    const [item_data, setItem_data] = useState({})
+
+    useEffect(() =>{
+        fetch(props.item_endpoint)
+        .then(raw => raw.json())
+        .then(result => {
+            setItem_data(result);
+        })
+        
+    },[])
+  
+    let num_images = item_data.img_url.size();
 
     let image_arr = [props.img1, props.img2, props.img3, props.img4, props.img5, props.img6, props.img7, props.img8, props.img9]
     let buttoncolours = [props.buttoncolour1, props.buttoncolour2, props.buttoncolour3, props.buttoncolour4, props.buttoncolour5];
