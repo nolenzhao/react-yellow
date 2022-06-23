@@ -1,5 +1,6 @@
 
 import {BrowserRouter as Router, Route} from 'react-router-dom'
+import {useState, useEffect} from 'react';
 import Titlecard from './Titlecard'
 import Item from './Item'
 
@@ -27,7 +28,16 @@ import YellowMotorcycleCream from './assets/images/YellowMotorcycleCream.png'
 import YellowMotorcycleBlack from './assets/images/YellowMotorcycleBlack.png'
 const Catalog = (props) =>
 {
-    
+    const [item_data, setItem_data] = useState({})
+
+    useEffect(() =>{
+        fetch(props.item_endpoint)
+        .then(raw => raw.json())
+        .then(result => {
+            setItem_data(result);
+        })
+    },[])
+  
     
 
     return (
