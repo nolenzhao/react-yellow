@@ -75,7 +75,7 @@ const Catalog = (props) =>
                     buttonlink1 = {YellowMotorcycleCream} buttonlink2 = {YellowMotorcycleBlack} num_images = {2} imginit = {YellowMotorcycleCream}
                     img1 = {YellowMotorcycleCream} img2 = {YellowMotorcycleBlack} alt = "Yellow Motorcycle Shirt" descinit = "Cream"
                     desc1 = "Cream" desc2 = "Black" description = "Printed on the the left breast is a familiar emblem with
-                    a YELLOW twist. This design is sure to draw the eyes of motorcycle enthusiasts."/>
+                    a YELLOW twist. This design is sure to draw the eyes of motorcycle enthusiasts lolllllll."/>
 
             </div>
             
