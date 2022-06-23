@@ -1,6 +1,6 @@
 
 import {BrowserRouter as Router, Route} from 'react-router-dom'
-import {useState, useEffect} from 'react';
+
 import Titlecard from './Titlecard'
 import Item from './Item'
 
@@ -28,16 +28,7 @@ import YellowMotorcycleCream from './assets/images/YellowMotorcycleCream.png'
 import YellowMotorcycleBlack from './assets/images/YellowMotorcycleBlack.png'
 const Catalog = (props) =>
 {
-    const [item_data, setItem_data] = useState({})
-
-    useEffect(() =>{
-        fetch(props.item_endpoint)
-        .then(raw => raw.json())
-        .then(result => {
-            setItem_data(result);
-        })
-    },[])
-  
+ 
     
 
     return (
@@ -55,8 +46,8 @@ const Catalog = (props) =>
                  desc1 = "Multicolour" description = "Made from recycled tee shirts, this soft, breathable, and 
                  washable face cover is perfect for any crowded event. Each covering displays our iconic YELLOW print."  />
 
-                <Item name = "Tote Bag" button_num = {1} buttoncolour1 = "black" buttonlink1 = {ToteBags} alt = "Tote Bag"
-                 imginit = {ToteBags} num_images = {3} img1 = {ToteBags} img2 = {totebag2} img3 = {Totebag1} descinit = "Multicolour" desc1 = "Multicolour"
+                <Item item_endpoint = "https://yellow-website-server.herokuapp.com/items/1" name = "Tote Bag" button_num = {1} buttoncolour1 = "black" buttonlink1 = {ToteBags} alt = "Tote Bag"
+                 imginit = {ToteBags}  img1 = {ToteBags} img2 = {totebag2} img3 = {Totebag1} descinit = "Multicolour" desc1 = "Multicolour"
                  description = "A sturdy replacement to the classic backpack, this tote bag displays both 
                  our iconic YELLOW print as well as the infamous D. B. Cooper."/>
 
