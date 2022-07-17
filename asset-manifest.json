@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/react-yellow/static/css/main.fc813434.css",
+    "main.css": "/react-yellow/static/css/main.ca102dc4.css",
     "main.js": "/react-yellow/static/js/main.0e84a2af.js",
     "static/js/787.4321a4ae.chunk.js": "/react-yellow/static/js/787.4321a4ae.chunk.js",
     "static/media/YellowAssorted.png": "/react-yellow/static/media/YellowAssorted.010a373e8f2320e991a2.png",
@@ -31,12 +31,12 @@
     "static/media/paypal.png": "/react-yellow/static/media/paypal.ce2b79c2cf704cf0b1b3.png",
     "index.html": "/react-yellow/index.html",
     "static/media/bars-solid.svg": "/react-yellow/static/media/bars-solid.4de0b64b468d9cdbdd41f4d490765099.svg",
-    "main.fc813434.css.map": "/react-yellow/static/css/main.fc813434.css.map",
+    "main.ca102dc4.css.map": "/react-yellow/static/css/main.ca102dc4.css.map",
     "main.0e84a2af.js.map": "/react-yellow/static/js/main.0e84a2af.js.map",
     "787.4321a4ae.chunk.js.map": "/react-yellow/static/js/787.4321a4ae.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.fc813434.css",
+    "static/css/main.ca102dc4.css",
     "static/js/main.0e84a2af.js"
   ]
 }
