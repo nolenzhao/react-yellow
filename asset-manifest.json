@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/react-yellow/static/css/main.068711d1.css",
-    "main.js": "/react-yellow/static/js/main.34ef783b.js",
+    "main.css": "/react-yellow/static/css/main.c407b115.css",
+    "main.js": "/react-yellow/static/js/main.8cf0db3c.js",
     "static/js/787.4321a4ae.chunk.js": "/react-yellow/static/js/787.4321a4ae.chunk.js",
     "static/media/YellowAssorted.png": "/react-yellow/static/media/YellowAssorted.010a373e8f2320e991a2.png",
     "static/media/YellowClothesSpread.png": "/react-yellow/static/media/YellowClothesSpread.6c9b12fab855ca82475a.png",
@@ -29,14 +29,15 @@
     "static/media/linkedin.png": "/react-yellow/static/media/linkedin.9aba105bebf1bc8f6921.png",
     "static/media/tiktok.png": "/react-yellow/static/media/tiktok.6ab8de2b9f5ca5c621da.png",
     "static/media/paypal.png": "/react-yellow/static/media/paypal.ce2b79c2cf704cf0b1b3.png",
+    "static/media/cart-shopping-solid.svg": "/react-yellow/static/media/cart-shopping-solid.27ffcd49ca8afaba319d03e5758b8670.svg",
     "index.html": "/react-yellow/index.html",
     "static/media/bars-solid.svg": "/react-yellow/static/media/bars-solid.4de0b64b468d9cdbdd41f4d490765099.svg",
-    "main.068711d1.css.map": "/react-yellow/static/css/main.068711d1.css.map",
-    "main.34ef783b.js.map": "/react-yellow/static/js/main.34ef783b.js.map",
+    "main.c407b115.css.map": "/react-yellow/static/css/main.c407b115.css.map",
+    "main.8cf0db3c.js.map": "/react-yellow/static/js/main.8cf0db3c.js.map",
     "787.4321a4ae.chunk.js.map": "/react-yellow/static/js/787.4321a4ae.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.068711d1.css",
-    "static/js/main.34ef783b.js"
+    "static/css/main.c407b115.css",
+    "static/js/main.8cf0db3c.js"
   ]
 }
