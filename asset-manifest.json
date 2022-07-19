@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/react-yellow/static/css/main.0329944e.css",
-    "main.js": "/react-yellow/static/js/main.8cf0db3c.js",
+    "main.css": "/react-yellow/static/css/main.2e9b065b.css",
+    "main.js": "/react-yellow/static/js/main.e2182919.js",
     "static/js/787.4321a4ae.chunk.js": "/react-yellow/static/js/787.4321a4ae.chunk.js",
     "static/media/YellowAssorted.png": "/react-yellow/static/media/YellowAssorted.010a373e8f2320e991a2.png",
     "static/media/YellowClothesSpread.png": "/react-yellow/static/media/YellowClothesSpread.6c9b12fab855ca82475a.png",
@@ -32,12 +32,12 @@
     "static/media/cart-shopping-solid.svg": "/react-yellow/static/media/cart-shopping-solid.27ffcd49ca8afaba319d03e5758b8670.svg",
     "index.html": "/react-yellow/index.html",
     "static/media/bars-solid.svg": "/react-yellow/static/media/bars-solid.4de0b64b468d9cdbdd41f4d490765099.svg",
-    "main.0329944e.css.map": "/react-yellow/static/css/main.0329944e.css.map",
-    "main.8cf0db3c.js.map": "/react-yellow/static/js/main.8cf0db3c.js.map",
+    "main.2e9b065b.css.map": "/react-yellow/static/css/main.2e9b065b.css.map",
+    "main.e2182919.js.map": "/react-yellow/static/js/main.e2182919.js.map",
     "787.4321a4ae.chunk.js.map": "/react-yellow/static/js/787.4321a4ae.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.0329944e.css",
-    "static/js/main.8cf0db3c.js"
+    "static/css/main.2e9b065b.css",
+    "static/js/main.e2182919.js"
   ]
 }
