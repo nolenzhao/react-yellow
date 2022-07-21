@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/react-yellow/static/css/main.ded5556f.css",
-    "main.js": "/react-yellow/static/js/main.3b798f64.js",
+    "main.css": "/react-yellow/static/css/main.24dd8859.css",
+    "main.js": "/react-yellow/static/js/main.2828abf5.js",
     "static/js/787.4321a4ae.chunk.js": "/react-yellow/static/js/787.4321a4ae.chunk.js",
     "static/media/YellowAssorted.png": "/react-yellow/static/media/YellowAssorted.010a373e8f2320e991a2.png",
     "static/media/YellowClothesSpread.png": "/react-yellow/static/media/YellowClothesSpread.6c9b12fab855ca82475a.png",
@@ -33,12 +33,12 @@
     "index.html": "/react-yellow/index.html",
     "static/media/xmark-solid.svg": "/react-yellow/static/media/xmark-solid.6837248f26b4746bca22dce7c606b744.svg",
     "static/media/bars-solid.svg": "/react-yellow/static/media/bars-solid.4de0b64b468d9cdbdd41f4d490765099.svg",
-    "main.ded5556f.css.map": "/react-yellow/static/css/main.ded5556f.css.map",
-    "main.3b798f64.js.map": "/react-yellow/static/js/main.3b798f64.js.map",
+    "main.24dd8859.css.map": "/react-yellow/static/css/main.24dd8859.css.map",
+    "main.2828abf5.js.map": "/react-yellow/static/js/main.2828abf5.js.map",
     "787.4321a4ae.chunk.js.map": "/react-yellow/static/js/787.4321a4ae.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ded5556f.css",
-    "static/js/main.3b798f64.js"
+    "static/css/main.24dd8859.css",
+    "static/js/main.2828abf5.js"
   ]
 }
