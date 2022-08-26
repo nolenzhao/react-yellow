@@ -1,4 +1,7 @@
 import Titlecard from './Titlecard'
+import IndividualItemPage from './IndividualItemPage'
+
+
 const Mission = () =>
 {
     return(
@@ -10,6 +13,7 @@ const Mission = () =>
                     <strong> YELLOW </strong> comes out of Vancouver, British Coumbia, located on the west coast of Canada.
                     Known for being a hub of creativity, it is the perfect birthplace for a brand centred around design,
                     quality, art.
+                   
                 </p>
             </div>
         </div>

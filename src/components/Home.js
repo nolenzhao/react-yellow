@@ -12,7 +12,7 @@ import YellowJackBack from './assets/images/YellowJackBack.JPG'
 import YellowParkerFlower from './assets/images/YellowParkerFlower.jpg'
 import YellowParkerSpit from './assets/images/YellowParkerSpit.JPG'
 import YellowSeversBack from './assets/images/YellowSeversBack.JPG'
-import YellowGeorgeSpill from './assets/images/YellowGeorgeSpill.JPG'
+import YellowGeorgeSpill from './assets/images/YellowGeorgeSpill.jpg'
 import YellowJasonJeans from './assets/images/YellowJasonJeans.JPG'
 import YellowBothSweaters from './assets/images/YellowBothSweaters.JPG'
 import YellowJasonFlannel from './assets/images/YellowJasonFlannel.JPG'
@@ -23,13 +23,13 @@ import logo from './assets/images/Yellowlogo.png'
 const Home = () =>
 {
   let previewsimage_arr = [YellowJasonFlannel,YellowParkerSpit, YellowBenBag, YellowJackBack, YellowColeConnor, YellowGeorgeSpill, YellowSeversBack
-  , YellowGeorgeBack, YellowParkerFlower,YellowBenHats, YellowColeRing, YellowGlassesMask,YellowBothSweaters, ]
+  , YellowGeorgeBack, YellowParkerFlower,YellowBenHats, YellowColeRing,YellowBothSweaters,YellowGlassesMask ]
   let previews_arr = [];
   let imageclassnames = [];
   for(let i = 0; i < 15; i++)
   {
     imageclassnames.push('previewimage' + i);
-    previews_arr.push(<img src = {previewsimage_arr[i]} className = "previewimage" id = {imageclassnames[i]}/>)
+    previews_arr.push(<img  src = {previewsimage_arr[i]} className = "previewimage" id = {imageclassnames[i]}/>)
     
   }
 
@@ -37,14 +37,11 @@ const Home = () =>
   return (
     <div className="homecontent">
       <Titlecard title = "YELLOW VANCOUVER"/>
-      
+    
       {previews_arr}
-      <div className = "previewimage" >
-        <h1 id = "previewlogo">YELLOW VANCOUVER </h1>
-      </div>
-      <div className = "previewimage" id = "previewspacer">
 
-      </div>
+      
+      
    
     </div>
     
@@ -52,3 +49,15 @@ const Home = () =>
 }
 
 export default Home;
+
+
+/*
+
+<div className = "previewimage" >
+        <h1 id = "previewlogo">YELLOW VANCOUVER </h1>
+      </div>
+      <div className = "previewimage" id = "previewspacer">
+
+      </div>
+
+      */
