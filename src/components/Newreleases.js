@@ -4,11 +4,7 @@ import Titlecard from './Titlecard'
 
 import NewItem from './NewItem'
 const Newreleases = () =>{
-    /*
-             <div id = "newpending">
-                <h3> New Releases Pending</h3>
-            </div>
-            */
+  
     return(
         <div className = "content">
              <Titlecard title = "NEW RELEASES"/>
